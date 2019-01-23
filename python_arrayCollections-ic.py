@@ -69,7 +69,12 @@ def problem5():
     kennCount = 0
     ErinCount = 0
     for eachElement in kennCount:
-         print(eachElement)
+         if(eachElement == "kenn"):
+             kennCount +=1
+         elif(eachElement == "kevin"):
+             kevinCount +=1
+         elif(eachElement == "Erin"):
+             ErinCount +=1
 
 
 
